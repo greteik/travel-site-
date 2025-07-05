@@ -204,3 +204,145 @@ body {
     margin: 0 auto;
     text-align: center;
 }
+
+.blog {
+    color: #000;
+    padding-bottom: 140px;
+}
+
+.blog__title {
+    font-family: "Gelasio", serif;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 43px;
+    font-weight: 500;
+}
+
+.blog__subtitle {
+    max-width: 580px;
+    opacity: 60%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.blog__inner {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 580px auto;
+    grid-template-rows: 1fr 1fr;
+    gap: 0 32px;
+}
+
+.blog__item-big {
+    grid-row: 4 / -4;
+}
+
+.blog__item-small {
+    display: flex;
+    gap: 0 30px;
+    align-items: center;
+}
+
+
+.blog__item-title {
+    font-family: "Gelasio", serif;
+    margin-top: 35px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.blog__item-text-big {
+    max-width: 470px;
+    opacity: 60%;
+    margin: 10px 0;
+}
+
+.blog__link-big {
+    font-weight: 500;
+    color: #000;
+    font-size: 20px;
+}
+
+.blog__link {
+    color: #000;
+    font-size: 20px;
+    opacity: 80%;
+}
+
+.blog__item-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px 0;
+}
+
+.blog__item-img-small {
+    padding-bottom: 30px;
+}
+
+.footer {
+    padding-bottom: 80px;
+    color: #000;
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__item {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__logo {
+    font-family: "Ribeye", serif;
+    margin-bottom: 40px;
+    font-size: 24px;
+}
+
+.footer__contact,
+.footer__email {
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.footer__social {
+    display: flex;
+    gap: 0 28px;
+    margin-top: 10px;
+}
+
+.footer__list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0;
+}
+
+.footer__list-link {
+    color: #000;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.footer__form-title {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.footer__form-item {
+    padding: 10px 20px 10px;
+    margin-right: 35px;
+    border: 1px solid rgba(0, 0, 0, .9);
+    border-radius: 5px;
+}
+
+.footer__button {
+    border: none;
+    background-color: #C9453B;
+    padding: 10px 25px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
